@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE meteo SYSTEM "index.dtd">
+<meteo>
+    <mesure date="2024-11-11">
+        <ville nom="casa" temperature="22"/>
+        <ville nom="mohamamadia" temperature="21"/>
+        <ville nom="fes" temperature="43"/>
+        <ville nom="tanger" temperature="25"/>
+        <ville nom="eljadida" temperature="36"/>
+        <ville nom="laayoune" temperature="34"/>
+        <ville nom="dakhla" temperature="34"/>
+        <ville nom="ouajda" temperature="31"/>
+    </mesure>
+    
+    <mesure date="2024-11-12">
+        <ville nom="casa" temperature="21"/>
+        <ville nom="mohamamadia" temperature="19"/>
+        <ville nom="fes" temperature="38"/>
+        <ville nom="tanger" temperature="25"/>
+        <ville nom="eljadida" temperature="34"/>
+        <ville nom="laayoune" temperature="32"/>
+        <ville nom="dakhla" temperature="32"/>
+        <ville nom="ouajda" temperature="29"/>
+    </mesure>
+</meteo>

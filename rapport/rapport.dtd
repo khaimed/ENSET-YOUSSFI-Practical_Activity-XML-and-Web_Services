@@ -1,0 +1,23 @@
+<!ELEMENT rapport (mondat+)>
+<!ELEMENT mondat (expediteur, destinataire) >
+<!ELEMENT expediteur EMPTY>
+<!ELEMENT destinataire EMPTY>
+
+<!ATTLIST mondat 
+    num NMTOKEN #REQUIRED
+    date CDATA #REQUIRED
+    montant CDATA #REQUIRED
+    etat (Reçu| Non_Reçu) 'Non_Reçu'
+>
+<!ATTLIST expediteur
+    cin CDATA #REQUIRED
+    nom CDATA #REQUIRED
+    prenom CDATA #REQUIRED
+    ville CDATA #REQUIRED
+>
+<!ATTLIST destinataire
+    cin CDATA #REQUIRED
+    nom CDATA #REQUIRED
+    prenom CDATA #REQUIRED
+    ville CDATA #REQUIRED
+>

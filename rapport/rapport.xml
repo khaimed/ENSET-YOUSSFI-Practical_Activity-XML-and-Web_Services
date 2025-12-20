@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rapport SYSTEM "rapport.dtd">
+<rapport>
+    <mondat num="11" date="2023-11-01" montant="2300" etat="Reçu">
+        <expediteur cin="DS12312" nom="a" prenom="b" ville="casa"/>
+        <destinataire cin="QA123214" nom="c" prenom="d" ville="fes"/>
+    </mondat>
+    <mondat num="14" date="2023-12-11" montant="1200" etat="Non_Reçu">
+        <expediteur cin="AQ12312" nom="a" prenom="b" ville="casa"/>
+        <destinataire cin="FD123214" nom="c" prenom="d" ville="fes"/>
+    </mondat>
+    <mondat num="11" date="2023-01-13" montant="1200" etat="Reçu">
+        <expediteur cin="GF12312" nom="a" prenom="b" ville="casa"/>
+        <destinataire cin="SE123214" nom="c" prenom="d" ville="fes"/>
+    </mondat>
+</rapport>
