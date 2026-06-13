@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rapport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="file:/C:/Users/hp/Documents/XML/rapport.xsd">
+    xsi:noNamespaceSchemaLocation="./rapport.xsd">
     <mondat num="12" date="2023-12-21" montant="340.20" etat="reçu">
         <expediteur cin="DS12345" nom="a" prenom="b"/>
         <destinataire cin="QA54666" nom="x" prenom="c"/>
